@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+
+html, body{
+			margin:0px;
+			padding:0;
+			height:100%;
+			padding-top:40px;
+			font-family: 'Lobster Two', cursive;
+			}
+
+		a:link{color:white;
+				text-decoration:none;
+				font-weight:bold;
+				font-size:12pt}
+}
+		a:visited{color:white;}
+
+		header{
+			position:fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 50px;
+			background: #C1A158;
+			transition: top 0.2s ease-in-out;
+		}
+
+		button{
+		  background:#C1A158;
+		  color:#fff;
+		  border:none;
+		  width:120px;
+		  height:40px;
+		  font-family: 'Lobster Two', cursive;
+		  font-size:1.2em;
+		  color:white;
+		  padding:0.2em;
+		  cursor:pointer;
+		  transition:800ms ease all;
+		  outline:none;
+		  margin-bottom:5px;
+
+		}
+		button:hover{
+		  background:#fff;
+		  color:#f5b335;
+		    font-family: 'Lobster Two', cursive;
+
+		}
+		button:before,button:after{
+		  content:'';
+		  position:absolute;
+		  top:0;
+		  right:0;
+		  height:2px;
+		  width:0;
+		  background: #f5b335;
+		  transition:400ms ease all;
+		}
+		button:after{
+		  right:inherit;
+		  top:inherit;
+		  left:0;
+		  bottom:0;
+		}
+		button:hover:before,
+		button:hover:after{
+		  width:100%;
+		  transition:800ms ease all;
+		}
+
+		#STATICMENU { margin: 0pt;
+					padding: 0pt;
+					position: absolute;
+					right: 0px;
+					top: 0px;
+					}
+
+		.nav-up{
+				top:-40px; //same for headerheight
+		}
+
+		#STATICMENU ul div {
+			border-bottom: 1px solid #c0c0c0;
+			font-size:20px;
+			background-color:#fe7e83;
+			border-radius:30%;
+			margin:10px 0px 10px 0px;
+
+		}
+
+		#nav_menu {
+			background-color: #fe7e83;
+			color: #fe7e83;
+		}
+
+		#nav_menu ul {
+
+			list-style-type:none;
+			float:right;
+			padding:1px 5px 5px 1px;
+
+			}
+
+
+		#nav_menu ul li {
+
+			display:inline;
+			border-left: 2px solid white;
+			padding:0px 10px 0px 10px;
+			margin:5px 0px 5px 0px;
+			font-size:10pt;
+
+			}
+		#nav_menu ul li:first-child {
+			border-left: none;
+			}
+		#nav_menu ul li a{
+		color:white;
+		}
+
+		#fixed-menu {
+					margin-top:-30px;
+					margin-left:-6px;
+					width: 100%;
+					height:30px;
+					position: fixed;
+					background-color:#fdeaec;
+					font-size:30px;
+					font-style:italic;
+
+				}
+
+
+
+		#div1{
+				margin-left:-6px;
+				margin-top:30px;
+				height:700px;
+				width:102%;
+				background-image:url("../image/pineapple.jpg");
+				background-size: cover;
+				background-repeat: no-repeat;
+				 font-family: 'Lobster Two', cursive;
+				}
+
+
+
+		#div2{
+				margin-top:-80px;
+				background-image: url("../image/2.png");
+				background-size: cover;
+				background-repeat: no-repeat;
+				width:102%;
+				height:1000px;
+				margin-left:-6px;
+			 font-family: 'Lobster Two', cursive;
+				}
+
+		#div3{
+				margin-top:-80px;
+				background: url("../image/4.png");
+				background-repeat: no-repeat;
+				width:102%;
+				text-align:center;
+				margin-left:-6px;
+					 font-family: 'Lobster Two', cursive;
+				}
+
+		#div4{
+				margin-top:-115px;
+				margin-left:-6px;
+				background-image: url("../image/4.png");
+				background-size: cover;
+				background-repeat: no-repeat;
+				width:102%;
+			 font-family: 'Lobster Two', cursive;
+				}
+
+		#div5{
+				margin-top: -160px;
+				background-image: url("../image/5.png");
+				background-size: cover;
+				background-repeat: no-repeat;
+				width:102%;
+				margin-left:-6px;
+				padding-bottom:0px;
+				 font-family: 'Lobster Two', cursive;
+				}
+
+		#div6{
+				margin-left:-6px;
+				background-size: cover;
+				background-repeat: no-repeat;
+				width:102%;
+				text-align:center;
+				 font-family: 'Lobster Two', cursive;
+				}
+
+
+
+		.footer {
+				margin-top:-17px;
+				 margin-left:-6px;
+				 width:102%;
+				 height:120px;
+				 clear:both;
+				 background:#efefef;
+				 font-family: 'Lobster Two', cursive;
+				 }
+
+		img{
+			float:left;
+			width:70px;
+			margin-left:20px;
+			margin-top:15px;}
+
+
+		.search{
+				display:inline-block;
+				}
+
+		.title{
+				font-style:italic;
+				font-size:50px;}
+		#footer_p{
+
+				padding-top:30px;
+				align="center";
+				}
+		#input{ display:inline;}
+
+		#profile-image{ width:300px;
+						height:400px;
+						margin-bottom:10px;}
+		#profile-table{width:800px;
+						height:400px;
+						border:20px;
+						border-style:solid;
+						border-color:#fadf25}
+		.section-title{ text-align:center;
+						font-size:80px;
+
+						}
+
+		#form_input
+				{
+					text-align:center;
+				}
+
+		#logo_img{
+
+					margin-left:0px;
+					width:40px;
+					height:30px;
+					}
+
+
+
+		#shopping-exp{margin-top:30px;
+					height:500px;
+					width:500px;
+					}
+
+		.works-img{
+		            height:300px;
+					width:300px;
+					margin-bottom:5px;}
+
+		.track-table{
+						border:0px;
+						}
+		#myworks{
+					margin-left:20px;
+					font-size:1.3em;
+		}
+
+
+	 #contact-table{text-align:center;
+					border-style:dashed;
+					border-color:#ffcccc;
+					}
+
+	 .contact-img{margin-left:10px;}
+	.p_p{font-size:18px;
+		 font-family: 'Lobster Two', cursive;}
+	.h1_{font-size:70px;
+		color: #212121;
+		 font-family: 'Lobster Two', cursive;;
+		}
+
+	.contact-img{margin-left:60px;
+				width:70px;
+				height:70px;}
+
+
+	#timetable-iframe_right{
+						display:inline-block;
+						width:500px;
+						height:650px;
+						;
+						}
+	#timetable-table_left{width:200px;
+						height:200px;
+
+						display:inline-block;
+						font-size:30px;
+						margin-right:30px;
+						margin-left:10px;
+						}
+	.timetable-img{height:50px;
+					width:140px;}
+
+.button_base {
+    margin: 0;
+    border: 0;
+    font-size: 18px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -100px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+#seolmyung {
+	margin: 10;
+}
+
+.button_base:hover {
+    cursor: pointer;
+}
+#GoToTop{
+
+	text-align:right;
+	margin-right:40px;
+
+
+}
+#GoToTop_btn{
+border-radius: 20px;
+}
+
+
+tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+table, th, td {
+  border: none;
+}
